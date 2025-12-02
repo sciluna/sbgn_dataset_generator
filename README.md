@@ -1,6 +1,6 @@
 # Annotated SBGNML Generator
 
-This code can generate randomly generated, but valid SBGN PD diagrams and (optionally) annotate the glyphs. This could be used to a create a large collection of consistently sized and annotated SBGN diagrams.
+This code can generate random and valid SBGN PD diagrams and (optionally) annotate the entity glyphs. This could be used to a create a large collection of consistently sized and annotated SBGN diagrams.
 
 # Run
 ```
