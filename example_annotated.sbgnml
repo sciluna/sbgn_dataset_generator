@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="example_annotated.sbgnml" language="process description">
+    <extension>
+      <renderInformation 
+        xmlns="http://www.sbml.org/sbml/level3/version1/render/version1" id="renderInformation" program-name="sbgnviz" program-version="6.1.0" background-color="#00000000">
+        <listOfColorDefinitions>
+          <colorDefinition id="color_1" value="#ffffffff"/>
+          <colorDefinition id="color_2" value="#555555"/>
+        </listOfColorDefinitions>
+        <listOfBackgroundImages/>
+        <listOfStyles>
+          <style id="nodeffffff5555551.2511normalnormalHelvetica00011" idList="nwtN_e27efc0a-0272-4f3e-98ac-893af98e32c5 nwtN_5b3ca23b-bce3-42b5-bf66-adac7122c98c nwtN_d06ef1d7-9ba9-42a4-af95-4afb4b3c261c">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_1" background-image-opacity="1" background-opacity="1"/>
+          </style>
+          <style id="nodeffffff5555551.2511" idList="nwtN_faeab98f-d75e-4a91-b158-325d6e7ea6ab">
+            <g stroke="color_2" stroke-width="1.25" fill="color_1" background-image-opacity="1" background-opacity="1"/>
+          </style>
+          <style id="edge5555551.25" idList="nwtE_fad52b09-45d4-4875-8888-e675ceb2af9f nwtE_af5d8831-c11a-4368-bbfa-dddf3e6831aa nwtE_69dc78f0-177f-47e8-aa56-1a33e864aef1">
+            <g stroke="color_2" stroke-width="1.25"/>
+          </style>
+        </listOfStyles>
+      </renderInformation>
+    </extension>
+    <glyph id="nwtN_e27efc0a-0272-4f3e-98ac-893af98e32c5" class="macromolecule">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_e27efc0a-0272-4f3e-98ac-893af98e32c5">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:11998"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="TP53"/>
+      <bbox x="599" y="149" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_5b3ca23b-bce3-42b5-bf66-adac7122c98c" class="macromolecule">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_5b3ca23b-bce3-42b5-bf66-adac7122c98c">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:6973"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="MDM2"/>
+      <bbox x="839" y="268" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_faeab98f-d75e-4a91-b158-325d6e7ea6ab" class="process">
+      <bbox x="766.1501935118337" y="213.9409257739432" w="14.285714285714286" h="14.285714285714286"/>
+      <port id="nwtN_faeab98f-d75e-4a91-b158-325d6e7ea6ab.1" x="763.2930506546908" y="221.08378291680035"/>
+      <port id="nwtN_faeab98f-d75e-4a91-b158-325d6e7ea6ab.2" x="783.2930506546908" y="221.08378291680035"/>
+    </glyph>
+    <glyph id="nwtN_d06ef1d7-9ba9-42a4-af95-4afb4b3c261c" class="simple chemical">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_d06ef1d7-9ba9-42a4-af95-4afb4b3c261c">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:29108"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <bbox x="761" y="70" w="30" h="30"/>
+    </glyph>
+    <arc id="nwtE_fad52b09-45d4-4875-8888-e675ceb2af9f" class="consumption" source="nwtN_e27efc0a-0272-4f3e-98ac-893af98e32c5" target="nwtN_faeab98f-d75e-4a91-b158-325d6e7ea6ab.1">
+      <start x="658.4781516771698" y="175.66185345373992"/>
+      <end x="762.6680506546908" y="221.08378291680035"/>
+    </arc>
+    <arc id="nwtE_af5d8831-c11a-4368-bbfa-dddf3e6831aa" class="production" source="nwtN_faeab98f-d75e-4a91-b158-325d6e7ea6ab.2" target="nwtN_5b3ca23b-bce3-42b5-bf66-adac7122c98c">
+      <start x="783.9180506546908" y="221.08378291680035"/>
+      <end x="842.425634544336" y="265.80810127523074"/>
+    </arc>
+    <arc id="nwtE_69dc78f0-177f-47e8-aa56-1a33e864aef1" class="consumption" source="nwtN_d06ef1d7-9ba9-42a4-af95-4afb4b3c261c" target="nwtN_faeab98f-d75e-4a91-b158-325d6e7ea6ab.1">
+      <start x="775.6892523328377" y="100.62190964278545"/>
+      <end x="762.6680506546908" y="221.08378291680035"/>
+    </arc>
+  </map>
+</sbgn>
