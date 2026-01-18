@@ -7,8 +7,12 @@ This code can generate random and syntactically valid SBGN PD diagrams and (opti
 uv run sbgnml_annotated_generator.py --output-dir annotated
 ```
 
+# Install (Playwright deps)
+```
+bash scripts/install_playwright_deps.sh
+```
+
 # Uses
 * SBGNML generator: https://sciluna.github.io/image-to-sbgn-analysis/dataset/index.html (https://github.com/sciluna/image-to-sbgn-analysis)
 * Identifier service: https://grounding.indra.bio/
 * playwright for browser automation
-

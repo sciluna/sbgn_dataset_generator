@@ -1,0 +1,10 @@
+[project]
+name = "sbgnml-annotated-generator"
+version = "0.1.0"
+description = "Generate SBGN-ML diagrams and optionally annotate glyphs."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.45.0",
+    "requests>=2.0",
+]
